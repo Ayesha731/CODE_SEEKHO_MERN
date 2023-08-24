@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HTML Form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="form-section">
+        <h1>Registration Form</h1>
+        <hr>
+        <form action="" class="form1">
+            <div class="form-content">
+                <p>First Name<span class="required">*</span>:</p>
+                <input type="text" name="firstName" id="firstName" class="text" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-content">
+                <p>Last Name<span class="required">*</span>:</p>
+                <input type="text" name="lastName" id="lastName" class="text" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-content">
+                <p>Email<span class="required">*</span>:</p>
+                <input type="email" name="email" id="email" class="text" placeholder="Enter your email" required>
+            </div>
+            <div class="form-content">
+                <p>Password:</p>
+                <input type="password" name="password" id="password" class="text" placeholder="Enter your password">
+            </div>
+            <div class="form-content">
+                <p>Phone Number:</p>
+                <input type="text" name="phone" id="phone" class="text" placeholder="Enter your phone number">
+            </div>
+            <div class="form-content">
+                <p>Date of Birth:</p>
+                <input type="date" name="dob" id="dob" class="text">
+            </div>
+            <div class="form-content">
+                <p>Gender<span class="required">*</span>:</p>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+            </div>
+            <div class="form-content">
+                <p>Select Course<span class="required">*</span>:</p>
+                <select name="course" id="course" class="text" required>
+                    <option value="ds">Data Structure</option>
+                    <option value="toa">Theory Of Automata</option>
+                    <option value="cc">Compiler Construction</option>
+                    <option value="os">Operating System</option>
+                    <option value="db">Database</option>
+                    <option value="ca">Computer Architecture</option>
+                    <option value="asm">Assembly Language</option>
+                    <option value="pf">Fundamental Programming</option>
+                    <option value="oop">Object Oriented Programming</option>
+                </select>
+            </div>
+            <div class="form-content">
+                <p>Address<span class="required">*</span>:</p>
+                <input type="text" name="address" id="address" class="text" placeholder="Enter your address" required>
+            </div>
+            <div class="form-content">
+                <p>Upload your registration card:</p>
+                <input type="file" name="file" id="file">
+            </div>
+            <div class="form-content">
+                <p>Additional Comments:</p>
+                <textarea name="comment" id="area" cols="30" rows="10" class="text" placeholder="Enter additional comments"></textarea>
+            </div>
+            <div class="form-content">        
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span>I agree with terms and conditions</span>
+            </div>
+            <div class="form-content">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span>I want to receive the newsletter</span>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+       </div>
+    </div>
+</body>
+</html>
