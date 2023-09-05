@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SignUp</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font Awesome Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/339614bb71.js" crossorigin="anonymous"></script>
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Raleway -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'> 
+</head>
+<body>
+    <div class="container">
+       <div class="left">
+        <img src="img3.png" alt="image">
+        <h2>Welcome back! Log in to continue</h2>
+        <p>Welcome back to my website! It's always great to see familiar faces. Log in below to continue exploring and enjoying all the features we offer. If you've forgotten your details, don't worry, just click on 'Forgot Password' and we'll guide you through the process.</p>
+        <a href="login.html"><button class="btn">Login</button></a>  
+    </div>
+       <div class="right">
+        <form action="#">
+            <h1>Sign Up</h1>
+            <div class="input-field">
+             <label for="firstName">First Name*</label>
+             <br>
+             <div class="input-icon"><i class="fas fa-user"></i>
+                <input type="text" id="firstName" required>
+            </div>
+            <div class="input-field">
+             <label for="lastName">Last Name*</label>
+             <br>
+             <div class="input-icon"><i class="fas fa-user"></i>
+                <input type="text" id="lastName" required>
+            </div>
+            <div class="input-field">
+             <label for="email">Email*</label>
+             <br>
+             <div class="input-icon"><i class="fas fa-envelope"></i>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-field">
+             <label for="password">Password*</label>
+             <br>
+             <div class="input-icon"><i class="fas fa-lock"></i>
+                <input type="password" id="password" required>
+            </div>
+            <div class="input-field">
+             <label for="confirmPassword">Confirm Password*</label>
+             <br>
+             <div class="input-icon"><i class="fas fa-lock"></i>
+                <input type="password" id="confirmPassword" required>
+            </div>
+           </div>
+            <button class="btn">Sign Up</button>
+            <p>OR</p>
+            <div class="icon-1">
+              <i class="bx bxl-google"></i>
+              <i class="bx bxl-facebook"></i>
+              <i class="bx bxl-linkedin"></i>
+              <i class="bx bxl-gmail"></i>
+            </div>
+            <p class="para"> 
+                Have account?
+                <span> <a href="login.html">Login</a> </span>
+              </p>
+        </form>
+       </div>
+    </div>
+</body>
+</html>
